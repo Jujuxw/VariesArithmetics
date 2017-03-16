@@ -24,7 +24,12 @@
 
 /* Begin PBXFileReference section */
 		A542BBA21E7534EA005D152B /* 堆排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "堆排序"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A542BBA51E7534EB005D152B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A542BBA51E7534EB005D152B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; wrapsLines = 0; };
+		A56198371E79A394009584FB /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		A56198381E79A404009584FB /* NumberOf1InBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberOf1InBinary.h; sourceTree = "<group>"; };
+		A56198391E79A56C009584FB /* Find.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Find.h; sourceTree = "<group>"; };
+		A561983A1E79AAF6009584FB /* ReplaceBlank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceBlank.h; sourceTree = "<group>"; };
+		A561983B1E79AF12009584FB /* Print1ToMaxDigits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Print1ToMaxDigits.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				A542BBA51E7534EB005D152B /* main.m */,
+				A56198371E79A394009584FB /* HeapSort.h */,
+				A56198381E79A404009584FB /* NumberOf1InBinary.h */,
+				A56198391E79A56C009584FB /* Find.h */,
+				A561983A1E79AAF6009584FB /* ReplaceBlank.h */,
+				A561983B1E79AF12009584FB /* Print1ToMaxDigits.h */,
 			);
 			path = "堆排序";
 			sourceTree = "<group>";
@@ -249,6 +259,7 @@
 				A542BBAB1E7534EB005D152B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
